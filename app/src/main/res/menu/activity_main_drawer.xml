@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_firebase_test"
+            android:icon="@drawable/ic_firebase"
+            android:title="Pruebas Firebase" />
+        <item
+            android:id="@+id/nav_checker"
+            android:icon="@drawable/ic_checker"
+            android:title="Checador" />
+        <item
+            android:id="@+id/nav_checker_list"
+            android:icon="@drawable/ic_checkerlist"
+            android:title="Registros de Checador" />
+    </group>
+</menu>
